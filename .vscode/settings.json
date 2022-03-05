@@ -1,0 +1,31 @@
+{
+    "go.lintOnSave": "file",
+    "go.docsTool": "gogetdoc",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[dart]": {
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.formatOnSave": true,
+      "editor.guides.bracketPairs": "active",
+      "editor.guides.bracketPairsHorizontal": "active",
+      "editor.codeActionsOnSave": [
+        "source.organizeImports",
+        "source.fixAll"
+      ],
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
+}

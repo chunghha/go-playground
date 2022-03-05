@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "golang.go",
+    "editorconfig.editorconfig",
+    "dart-code.dart-code",
+    "dart-code.flutter",
+    "nash.awesome-flutter-snippets",
+    "pythonhub.riverpodsnippets",
+    "aaron-bond.better-comments",
+    "redhat.vscode-yaml",
+  ]
+}
