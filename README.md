@@ -36,3 +36,21 @@ nx run app:run
 | ![serve_api](./screenshots/serve_fiber_api.png) | ![run_app](./screenshots/run_flutter_app.png) |
 
 ![go_playground](./screenshots/go_playground.png)
+
+## Swagger
+
+- Install [task](https://github.com/go-task/task) and [swag](https://github.com/swaggo/swag) to generate a swagger.
+  
+```bash
+task sswagger_gen 
+```
+
+[swagger](http://localhost:3000/swagger/index.html)
+
+### Endpoints
+
+```bash
+ht :3000/
+ht :3000/api/is_healthy
+ht :3000/api/v1/states
+```

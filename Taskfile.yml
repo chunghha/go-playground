@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  swagger_gen:
+    cmds:
+      - swag init -g apps/api/main.go

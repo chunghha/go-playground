@@ -37,3 +37,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Dev build
+build/
+docs/
+tmp/
+
+# Test
+*.out
+
+# Environment variables
+.env
