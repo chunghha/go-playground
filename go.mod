@@ -1,6 +1,6 @@
 module go-playground
 
-go 1.17
+go 1.18
 
 require (
 	github.com/arsmn/fiber-swagger/v2 v2.24.0

@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  all_lint_rules_community: ^0.0.3
+  all_lint_rules_community: ^0.0.9
   flutter_test:
     sdk: flutter
   gap: ^2.0.0
